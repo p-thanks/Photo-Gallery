@@ -140,7 +140,7 @@ photo-gallery/
 
 ```bash
 # 1️⃣ Clone the repository
-git clone <your-repo-url>
+git clone https://github.com/p-thanks/Photo-Gallery.git
 cd photo-gallery
 
 # 2️⃣ Build the project
@@ -279,7 +279,7 @@ spring.servlet.multipart.max-request-size=10MB
 
 <div align="center">
 
-### 🌟 Built with ❤️ using Spring Boot 🌟
+### 🌟 Built with pthanks using Spring Boot 🌟
 
 ```
 ┌─────────────────────────────────────────┐
@@ -288,6 +288,6 @@ spring.servlet.multipart.max-request-size=10MB
 └─────────────────────────────────────────┘
 ```
 
-**[⭐ Star this repo](https://github.com/yourrepo)** | **[🐛 Report Bug](https://github.com/yourrepo/issues)** | **[✨ Request Feature](https://github.com/yourrepo/issues)**
+**[⭐ Star this repo](https://github.com/p-thanks/Photo-Gallery.git)** | **[🐛 Report Bug](https://github.com/p-thanks/Photo-Gallery/issues)** | **[✨ Request Feature](https://github.com/p-thanks/Photo-Gallery/issues)**
 
 </div>
