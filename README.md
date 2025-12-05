@@ -1,4 +1,4 @@
-# 📸 Photo Gallery
+# Photo Gallery
 
 <div align="center">
 
@@ -22,7 +22,7 @@
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
@@ -56,7 +56,7 @@
 ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 ```
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 <table>
 <tr>
@@ -108,7 +108,7 @@
 </tr>
 </table>
 
-## 📦 Project Structure
+## Project Structure
 
 ```
 photo-gallery/
@@ -136,7 +136,7 @@ photo-gallery/
 └── 📄 pom.xml (Maven)
 ```
 
-## 🚀 Quick Start
+## Quick Start
 
 ```bash
 # 1️⃣ Clone the repository
@@ -165,13 +165,13 @@ mvn spring-boot:run
 
 </div>
 
-## ✨ Features
+## Features
 
 <table>
 <tr>
 <td width="50%">
 
-#### 📤 Upload Photos
+#### Upload Photos
 ```
 ┌──────────────┐
 │ [📁 Choose]  │
@@ -200,7 +200,7 @@ Responsive Grid
 <tr>
 <td width="50%">
 
-#### 💾 Auto-Save
+#### Auto-Save
 ```
   Upload → 💾 → Database
             ↓
@@ -210,7 +210,7 @@ Responsive Grid
 </td>
 <td width="50%">
 
-#### 📱 Responsive
+#### Responsive
 ```
 💻 Desktop | 📱 Mobile | 📟 Tablet
     ✓      |     ✓     |    ✓
@@ -220,7 +220,7 @@ Responsive Grid
 </tr>
 </table>
 
-## 🗄️ Database Configuration
+## Database Configuration
 
 <div align="center">
 
@@ -237,7 +237,7 @@ Responsive Grid
 
 </div>
 
-## 🔧 Configuration
+## Configuration
 
 **application.properties**
 ```properties
@@ -253,7 +253,7 @@ spring.servlet.multipart.max-file-size=10MB
 spring.servlet.multipart.max-request-size=10MB
 ```
 
-## 📊 Workflow
+## Workflow
 
 ```
 ┌─────────┐     ┌──────────┐     ┌──────────┐     ┌──────────┐
@@ -266,7 +266,7 @@ spring.servlet.multipart.max-request-size=10MB
                     Retrieve & Display Photos
 ```
 
-## 🎯 API Endpoints
+## API Endpoints
 
 | Method | Endpoint | Description |
 |--------|----------|-------------|
@@ -279,7 +279,7 @@ spring.servlet.multipart.max-request-size=10MB
 
 <div align="center">
 
-### 🌟 Built with pthanks using Spring Boot 🌟
+### Built with pthanks using Spring Boot 
 
 ```
 ┌─────────────────────────────────────────┐
