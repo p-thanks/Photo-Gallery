@@ -1,11 +1,11 @@
-# 📸 Photo Gallery
+# Photo Gallery
 
 <div align="center">
 
 ```
 ╔══════════════════════════════════════════════════════════╗
 ║                                                          ║
-║    🖼️  📷  🎨  PHOTO GALLERY APPLICATION  🎨  📷  🖼️    ║
+║             PHOTO GALLERY APPLICATION                    ║
 ║                                                          ║
 ╚══════════════════════════════════════════════════════════╝
 ```
@@ -22,24 +22,24 @@
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
-┃                    CLIENT SIDE                      ┃
-┃  ┌──────────────────────────────────────────────┐  ┃
-┃  │         🌐 Web Browser (User)                │  ┃
-┃  └─────────────────┬────────────────────────────┘  ┃
+┃                    CLIENT SIDE                    ┃
+┃  ┌──────────────────────────────────────────────┐ ┃
+┃  │         🌐 Web Browser (User)               │  ┃
+┃  └─────────────────┬────────────────────────────┘ ┃
 ┗━━━━━━━━━━━━━━━━━━━━┿━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
                      │ HTTP Request/Response
 ┏━━━━━━━━━━━━━━━━━━━━┿━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
-┃  ┌─────────────────▼────────────────────────────┐  ┃
-┃  │  🎨 HTML + Tailwind CSS + Thymeleaf          │  ┃
-┃  │     (Presentation Layer)                     │  ┃
+┃  ┌─────────────────▼────────────────────────────┐ ┃
+┃  │  🎨 HTML + Tailwind CSS + Thymeleaf          │ ┃
+┃  │     (Presentation Layer)                     │ ┃
 ┃  └─────────────────┬────────────────────────────┘  ┃
-┃                    │                                ┃
+┃                    │                               ┃
 ┃  ┌─────────────────▼────────────────────────────┐  ┃
-┃  │  ⚙️  Spring Boot Controllers                  │  ┃
+┃  │  ⚙️  Spring Boot Controllers                 │  ┃
 ┃  │     (Business Logic Layer)                   │  ┃
 ┃  └─────────────────┬────────────────────────────┘  ┃
 ┃                    │                                ┃
@@ -56,19 +56,14 @@
 ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 ```
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 <table>
 <tr>
 <td align="center" width="33%">
 
 ### Backend
-```
-    ☕
-   ╔══╗
-   ║☕║
-   ╚══╝
-```
+
 **Spring Boot**
 - REST APIs
 - MVC Pattern
@@ -78,12 +73,7 @@
 <td align="center" width="33%">
 
 ### Frontend
-```
-    🎨
-   ╔══╗
-   ║🖌️║
-   ╚══╝
-```
+
 **Tailwind + Thymeleaf**
 - Responsive Design
 - Server-side Rendering
@@ -93,12 +83,7 @@
 <td align="center" width="33%">
 
 ### Database
-```
-    💾
-   ╔══╗
-   ║📊║
-   ╚══╝
-```
+
 **H2 Database**
 - In-Memory Storage
 - Zero Configuration
@@ -108,7 +93,7 @@
 </tr>
 </table>
 
-## 📦 Project Structure
+## Project Structure
 
 ```
 photo-gallery/
@@ -136,11 +121,11 @@ photo-gallery/
 └── 📄 pom.xml (Maven)
 ```
 
-## 🚀 Quick Start
+## Quick Start
 
 ```bash
 # 1️⃣ Clone the repository
-git clone <your-repo-url>
+git clone https://github.com/p-thanks/Photo-Gallery.git
 cd photo-gallery
 
 # 2️⃣ Build the project
@@ -165,13 +150,13 @@ mvn spring-boot:run
 
 </div>
 
-## ✨ Features
+## Features
 
 <table>
 <tr>
 <td width="50%">
 
-#### 📤 Upload Photos
+#### Upload Photos
 ```
 ┌──────────────┐
 │ [📁 Choose]  │
@@ -200,7 +185,7 @@ Responsive Grid
 <tr>
 <td width="50%">
 
-#### 💾 Auto-Save
+#### Auto-Save
 ```
   Upload → 💾 → Database
             ↓
@@ -210,7 +195,7 @@ Responsive Grid
 </td>
 <td width="50%">
 
-#### 📱 Responsive
+#### Responsive
 ```
 💻 Desktop | 📱 Mobile | 📟 Tablet
     ✓      |     ✓     |    ✓
@@ -220,7 +205,7 @@ Responsive Grid
 </tr>
 </table>
 
-## 🗄️ Database Configuration
+## Database Configuration
 
 <div align="center">
 
@@ -237,7 +222,7 @@ Responsive Grid
 
 </div>
 
-## 🔧 Configuration
+## Configuration
 
 **application.properties**
 ```properties
@@ -253,7 +238,7 @@ spring.servlet.multipart.max-file-size=10MB
 spring.servlet.multipart.max-request-size=10MB
 ```
 
-## 📊 Workflow
+## Workflow
 
 ```
 ┌─────────┐     ┌──────────┐     ┌──────────┐     ┌──────────┐
@@ -266,7 +251,7 @@ spring.servlet.multipart.max-request-size=10MB
                     Retrieve & Display Photos
 ```
 
-## 🎯 API Endpoints
+## API Endpoints
 
 | Method | Endpoint | Description |
 |--------|----------|-------------|
@@ -279,7 +264,7 @@ spring.servlet.multipart.max-request-size=10MB
 
 <div align="center">
 
-### 🌟 Built with ❤️ using Spring Boot 🌟
+### Built with pthanks using Spring Boot 
 
 ```
 ┌─────────────────────────────────────────┐
@@ -288,6 +273,6 @@ spring.servlet.multipart.max-request-size=10MB
 └─────────────────────────────────────────┘
 ```
 
-**[⭐ Star this repo](https://github.com/yourrepo)** | **[🐛 Report Bug](https://github.com/yourrepo/issues)** | **[✨ Request Feature](https://github.com/yourrepo/issues)**
+**[⭐ Star this repo](https://github.com/p-thanks/Photo-Gallery.git)** | **[🐛 Report Bug](https://github.com/p-thanks/Photo-Gallery/issues)** | **[✨ Request Feature](https://github.com/p-thanks/Photo-Gallery/issues)**
 
 </div>
